@@ -1,0 +1,528 @@
+/* General */
+html {
+  font-family: "Avantgarde",Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #444444;
+}
+
+.div {
+  display: block;
+}
+
+h1 {
+  font-size: 2.48em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.35em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-desktop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+}
+
+.header-desktop img {
+  margin-left: 24px;
+  height: 100%;
+}
+
+.header-desktop .colmar {
+  font-weight: bold;
+}
+
+.header-desktop .academy {
+  color: grey;
+}
+
+.header-desktop nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 24px;
+}
+
+.header-desktop nav span {
+  padding: 0px 8px;
+}
+
+.header-desktop nav span a:hover {
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid lightgrey;
+}
+
+.header-mobile {
+  display: none;
+}
+
+
+/* --- Section 1 -- */
+.section-1 {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-1 img {
+  width: 60%;
+  height: 60%;
+  margin: 32px 40px 32px 24px;
+}
+
+.section-1 .content {
+  display: block;
+  text-align: left;
+  margin-right: 90px;
+}
+
+.section-1 .content .text h1 {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.section-1 .content .text h2 {
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.section-1 .content .button {
+  font-size: 1.2em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #444444;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.section-1 .content .button:hover {
+  background-color: #EEEEEE;
+  color: #444444;
+}
+
+
+/* --- Section 2 -- */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.section-2 .col {
+  display: flex;
+  flex-direction: column;
+}
+.section-2 .col:first-child {
+  width: 70%;
+  border-right: 2px solid lightgrey;
+}
+
+.section-2 .col .image-content img {
+  width: 94.5%;
+  margin: 32px 24px;
+}
+
+.section-2 .col .content {
+  margin-left:24px;
+  margin-bottom: 32px;
+}
+
+.section-2 .col .content h1{
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.section-2 .col .content h4 {
+  line-height: 1.2;
+  margin-bottom: 32px;
+  margin-right: 24px;
+}
+
+.section-2 .col .content p {
+  font-size: 1.17em;
+}
+
+.section-2 .col .side img {
+  width: 35%;
+  height: 35%;
+  margin: 16px;
+}
+
+.section-2 .col .side:first-child {
+  margin-top: 16px;
+}
+
+.section-2 .col:last-child {
+  width:40%;
+}
+
+.section-2 .col .side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-2 .col .side:last-child {
+  background-color: lightgrey;
+}
+
+.section-2 .col .side .text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 32px;
+}
+
+.section-2 .col .side .text h2 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.section-2 .col .side .text p {
+  font-size: 0.85em;
+  margin-bottom: 8px;
+}
+
+.section-2 .col .side .text span {
+  font-size: 0.85em;
+  color: dodgerblue;
+}
+
+.section-2 .col .side .text span a:hover {
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid dodgerblue;
+}
+
+
+/* --- Section 3 -- */
+.section-3 {
+  background-color: lightgrey;
+  padding: 32px;
+}
+
+.section-3 h1{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.courses {
+  display: flex;
+  height: 22em;;
+  margin: 32px 32px 0px;
+}
+
+.course {
+  width: 30%;
+  margin-right: 32px;
+}
+
+.course-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px grey solid;
+  border-image: initial;
+}
+
+.description {
+  display: block;
+  background-color: white;
+  text-align: left;
+  height: 30%;
+  margin-bottom: 32px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 60px;
+}
+
+.course img {
+  width: 100%;
+}
+
+.section-3 .courses .course .description h2 {
+  font-weight: bold;
+}
+
+.section-3 .courses .course .description p {
+  font-size: 1.1em;
+  margin-top: 8px;
+  text-align: left;
+  line-height: 1.4;
+  color: #888888;
+}
+
+
+/* --- Section 4 -- */
+.title-4 {
+  text-align: center;
+  margin: 32px;
+  font-weight: bold;
+}
+.section-4 {
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 2px solid lightgrey;
+}
+
+.section4-container {
+  display: flex;
+}
+
+.section-4 .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4 .col:first-child {
+  width: 63.6%;
+}
+
+.section-4 .col:last-child {
+  width: 36.4%;
+}
+
+.section-4 .col {
+  margin: 32px 16px 24px 24px;:
+}
+
+.section-4 .col .video-content video {
+  width: 100%;
+}
+
+.section-4 .col .content {
+  margin-bottom: 32px;
+  line-height: 1.2;
+}
+
+.section-4 .col .content h3 {
+  font-weight: bold;
+  margin: 24px 0px;
+}
+
+.section-4 .col .content h4 {
+  margin-bottom: 8px;
+}
+
+.section-4 .col .side img {
+  width: 35%;
+  height: 35%;
+  margin: 16px;
+}
+
+.section-4 .col .side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-4 .col .side:first-child {
+  background-color: lightgrey;
+}
+
+.section-4 .col .side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-4 .col .side .text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 32px;
+  line-height: 1.2;
+}
+
+.section-4 .col .side .text h3 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.section-4 .col .side .text p {
+  font-size: 0.85em;
+  margin-bottom: 32px;
+}
+
+
+/* --- Footer -- */
+footer {
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 60px;
+}
+footer .copyright {
+  margin-left: 24px;
+}
+
+footer nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 24px;
+}
+
+footer nav span {
+  padding: 0px 8px;
+}
+
+footer nav span a:hover {
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid lightgrey;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 580px) {
+  header {
+    height: 64px;
+    background-color: white;
+  }
+  .header-desktop {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    height: 100%;
+  }
+  .header-mobile nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.3em;
+  }
+  .header-mobile nav span {
+    height: 100%;
+  }
+  .header-mobile nav span img {
+    height: 75%;
+    margin: 0.45em;
+  }
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1 img {
+    display: none;
+  }
+  .section-1 .mobile-space {
+    height: 180px;
+    width: 100%;
+    background: grey;
+  }
+  .section-1 .content {
+    margin: 32px 16px;
+  }
+  .section-1 .content .text h1 {
+    margin-bottom: 32px;
+  }
+  .section-1 .content .text h2 {
+    margin-bottom: 24px;
+  }
+  .section-1 .content .button {
+    background-color: grey;
+    color: white;
+    padding: 10px 0px;
+  }
+  .section-2 .image-content, .content, .section-2 .col:first-child {
+    display: none;
+  }
+  .section-2 .col:last-child {
+    display: block;
+    width: 100%;
+  }
+  .section-2 .col .side img {
+    display: inline-block;
+    position: relative;
+    margin: 16px;
+    width: 95%;
+    max-height: 12em;
+  }
+  .section-2 .col .side {
+    display: block;
+  }
+  .section-2 .col .side .text {
+    margin-left: 32px;
+    margin-bottom: 16px;
+  }
+  .section-2 .col .side:last-child {
+    background-color: white;
+    margin-bottom: 32px;
+  }
+  .section-3 {
+    padding: 16px;
+    border: 2px solid darkgrey;
+    background-color: #EEEEEE;
+  }
+  .section-3 .course-image {
+    display: none;
+  }
+  .section-3 .description p {
+    display: none;
+  }
+  .section-3 .description {
+    padding: 16px;
+    margin: 16px;
+    height: auto;
+    background-color: #CCCCCC;
+  }
+  .section-3 .courses {
+    height: auto;
+  }
+  .section-3 .courses, .course {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+  .section-3 .description h2 {
+    margin: 16px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .section-4 {
+    border: 0px;
+  }
+  .section-4 .col:last-child {
+    display: none;
+  }
+  .section-4 .col:first-child {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: 2px solid darkgrey;
+  }
+  footer {
+    text-align: center;
+    margin-top:16px;
+    margin-bottom: 16px
+  }
+  footer .copyright {
+    margin-left: 0px;
+    text-align: center;
+    width: 100%
+  }
+  footer nav {
+    display: none;
+  }
+}
